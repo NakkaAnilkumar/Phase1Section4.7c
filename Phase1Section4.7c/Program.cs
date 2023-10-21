@@ -11,6 +11,7 @@ namespace Phase1Section4._7c
         static void Main(string[] args)
         {
             runApp();
+            Console.ReadLine();
         }
 
         public static void runApp()
@@ -43,7 +44,7 @@ namespace Phase1Section4._7c
                 Console.WriteLine(n.Data);
                 n = list.getPrev();
             }
-            Console.ReadLine();
+            
 
         }
 
